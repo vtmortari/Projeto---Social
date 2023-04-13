@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    scrollbar-width: none;
+}
+img{
+    width: 93vw;
+}
+
+footer{
+    background-color: rgb(155, 0, 0);
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+}
+
+footer>a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}

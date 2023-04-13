@@ -1,1 +1,75 @@
-@charset 
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+div#celular{
+    height: 627px;
+    width: 311px;
+    background-image: url(../imagens/frame-iphone.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela{
+    height: 475px;
+    width: 265px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav{
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%, 0%);
+}
+
+div.img-botao {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: 25px 15px;
+    border-radius: 50%;
+}
+
+div#home {
+    background: url(../imagens/logo-home.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+div#youtube {
+    background: url(../imagens/logo-youtube.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+div#github {
+    background: url(../imagens/logo-github.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+div#instagram {
+    background: url(../imagens/logo-instagram.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+div#twitter {
+    background: url(../imagens/logo-twitter.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+div#facebook {
+    background: url(../imagens/logo-facebook.jpg) no-repeat center center;
+    background-size: cover;
+}
